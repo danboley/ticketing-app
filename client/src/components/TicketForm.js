@@ -10,33 +10,6 @@ function TicketForm({ addTicket }) {
   const navigate = useNavigate();
 
   // CREATE TICKET
-  // const handleTicketSubmit = (e) => {
-  //   e.preventDefault();
-  //   fetch(`/tickets`, {
-  //     method: `POST`,
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify({
-  //       name: name,
-  //       email: email,
-  //       description: description,
-  //       status: "new",
-  //     }),
-  //   }).then((res) => {
-  //     if (res.ok) {
-  //       res.json().then((data) => {
-  //         addTicket(data);
-  //       });
-  //       console.log("Form submitted:", { name, email, description });
-  //       alert(
-  //         `Ticket successfully submitted: An expert will reach out to you shortly.`
-  //       );
-  //       navigate("/");
-  //     } else {
-  //       res.json().then((err) => setErrors(err.errors));
-  //     }
-  //   });
-  // };
-
   const handleTicketSubmit = (e) => {
     e.preventDefault();
     fetch(`/tickets`, {
@@ -57,7 +30,7 @@ function TicketForm({ addTicket }) {
         }
       })
       .then((data) => {
-        addTicket(data); // Ensure addTicket is defined and correct here
+        addTicket(data);
         console.log("Form submitted:", { name, email, description });
         alert(
           `Ticket successfully submitted: An expert will reach out to you shortly.`

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
@@ -33,7 +34,7 @@ function TicketAdminPanel({ tickets }) {
     } else if (params.value === "resolved") {
       return "Resolved";
     } else {
-      return params.value; // Return original value if not matched
+      return params.value;
     }
   }
 
@@ -52,12 +53,11 @@ function TicketAdminPanel({ tickets }) {
         const ticketId = params?.data?.id;
         return (
           <div>
-            <a
+            <Link to={`/tickets/${ticketId}`}
               className="underline hover:text-gray-600"
-              href={`/tickets/${ticketId}`}
             >
               View Details
-            </a>
+            </Link>
           </div>
         );
       },
