@@ -2,10 +2,29 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-      <a href="/">Help Desk</a>
-      <NavLink to="/ticket-form">Submit a Ticket</NavLink>
-      <NavLink to="/admin-panel">Admin Access</NavLink>
+    <div className="bg-gray-800 p-4 flex justify-between items-center border-b-2 border-white">
+      <div className="flex items-center">
+        <a
+          className="text-white px-3 py-2 rounded-md text-sm font-medium"
+          href="/"
+        >
+          Help Desk
+        </a>
+      </div>
+      <div className="flex items-center">
+        <NavLink
+          className="text-white px-3 py-2 rounded-md text-sm font-medium"
+          to="/ticket-form"
+        >
+          Submit a Ticket
+        </NavLink>
+        <NavLink
+          className="text-white px-3 py-2 rounded-md text-sm font-medium"
+          to="/admin-panel"
+        >
+          Admin Panel
+        </NavLink>
+      </div>
     </div>
   );
 }

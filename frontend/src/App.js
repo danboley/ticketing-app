@@ -20,7 +20,7 @@ function App() {
     } catch (error) {
       console.error("Error fetching tickets:", error);
     }
-  }, [tickets.id]);
+  }, []);
 
   // Create Ticket Callback
   function addTicket(newTicket) {
@@ -36,10 +36,10 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="bg-gray-700">
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<TicketForm />} />
+        <Route exact path="/" element={<TicketForm addTicket={addTicket} />} />
         <Route
           path="/ticket-form"
           element={<TicketForm addTicket={addTicket} />}
@@ -51,7 +51,6 @@ function App() {
         <Route
           path="/tickets/:id"
           element={<TicketDetails editTicket={editTicket} />}
-          // render={(props) => <TicketDetails ticketId={props.match.params.id} />}
         />
       </Routes>
     </div>
