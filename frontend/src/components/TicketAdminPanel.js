@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import { useNavigate } from "react-router-dom";
 
 function TicketAdminPanel({ tickets }) {
   const [rowData, setRowData] = useState([]);
-  const navigate = useNavigate();
 
   useEffect(() => {
     setRowData(tickets);
