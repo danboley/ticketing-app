@@ -15,7 +15,7 @@ Ticket.create!(
   name: "John Doe",
   status: "new",
   email: "johndoe@gmail.com",
-  description: "This is John's test ticket 2 for DB seeding purposes.",
+  description: "This is John's test ticket for DB seeding purposes.",
 )
 
 puts "Tickets seeded successfully."

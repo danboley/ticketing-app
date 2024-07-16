@@ -16612,3 +16612,1541 @@ Processing by TicketsController#index as */*
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 865)
 
 
+Started GET "/" for 127.0.0.1 at 2024-07-16 09:01:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 14.9ms | ActiveRecord: 7.6ms | Allocations: 37510)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2024-07-16 09:01:33 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:01:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 884)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:01:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 883)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:06:43 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 883)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:06:43 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 866)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:09:32 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:09:32 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 883)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:09:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:09:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:10:29 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:10:29 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:10:31 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:10:31 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:14:20 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:14:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:14:50 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:14:51 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:00 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:00 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:09 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:12 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:12 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:15:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (1.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:11 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:11 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:15 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:15 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:55 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:18:55 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:19:17 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:19:17 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:19:44 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:19:44 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:00 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:00 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:06 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:06 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:19 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:19 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:21 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:21 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:25 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:20:25 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:35:53 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 12ms (Views: 12.3ms | ActiveRecord: 6.9ms | Allocations: 3814)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:35:56 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:36:02 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:36:07 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:36:11 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:40:27 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:40:32 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:40:36 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:40:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:43:30 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:43:30 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1020)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:43:30 -0400
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 4179)
+
+
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:43:30 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 631)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:43:59 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 631)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:02 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 631)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:03 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:21 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:26 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:28 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:41 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:44:51 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:01 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:03 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:06 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:15 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:17 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:18 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:23 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:45:30 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:14 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:16 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:28 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:31 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:35 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:41 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:45 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:51 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:52 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:46:56 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:11 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:35 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:51 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:54 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:58 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:47:59 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:48:02 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:48:04 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:49:02 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:49:02 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1879)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:49:02 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 13ms (Views: 6.4ms | ActiveRecord: 6.7ms | Allocations: 6335)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:49:02 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 865)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:49:23 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 660)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:49:27 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:49:43 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:51:05 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:51:13 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:51:19 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:51:23 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:51:49 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:22 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:25 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:39 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:49 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:54 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:52:56 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:53:16 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:53:16 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 630)
+
+
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 09:53:47 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:57:27 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:57:27 -0400
+Processing by TicketsController#index as */*
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.7ms | Allocations: 2048)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 09:57:27 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1168)
+
+
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 5.3ms | Allocations: 6535)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 09:57:27 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 10:00:12 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:00:12 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1051)
+
+
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1635)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 10:00:12 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:00:12 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1077)
+
+
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.7ms | Allocations: 1656)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 10:02:27 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:27 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 762)
+
+
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1728)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:27 -0400
+Started GET "/tickets/1" for 127.0.0.1 at 2024-07-16 10:02:27 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Processing by TicketsController#show as */*
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1231)
+
+
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 662)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:31 -0400
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 10:02:31 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 886)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:31 -0400
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 10:02:31 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 872)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:43 -0400
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 10:02:43 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 878)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 630)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:43 -0400
+Processing by TicketsController#index as */*
+Started GET "/tickets/2" for 127.0.0.1 at 2024-07-16 10:02:43 -0400
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1079)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 630)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:50 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:02:50 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 865)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:03:20 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"new", "ticket"=>{"name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (1.1ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Test Name"], ["email", "test@email.com"], ["description", "This is a test ticket"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:03:20.781801"], ["updated_at", "2024-07-16 14:03:20.781801"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 7ms (Views: 0.4ms | ActiveRecord: 2.3ms | Allocations: 2050)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:10 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 979)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:10 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 978)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:16 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:04:16 -0400
+Processing by TicketsController#index as */*
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1413)
+
+
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 1.1ms | Allocations: 1742)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:16 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:04:16 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 986)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 629)
+
+
+Started PATCH "/tickets/3" for 127.0.0.1 at 2024-07-16 10:04:26 -0400
+Processing by TicketsController#update as */*
+  Parameters: {"id"=>"3", "name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"in_progress", "comments"=>"Updating ticket.", "created_at"=>"2024-07-16T14:03:20.781Z", "updated_at"=>"2024-07-16T14:03:20.781Z", "ticket"=>{"id"=>"3", "name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"in_progress", "comments"=>"Updating ticket.", "created_at"=>"2024-07-16T14:03:20.781Z", "updated_at"=>"2024-07-16T14:03:20.781Z"}}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+[31mUnpermitted parameters: :id, :created_at, :updated_at. Context: { controller: TicketsController, action: update, request: #<ActionDispatch::Request:0x0000000114b69378>, params: {"id"=>"3", "name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"in_progress", "comments"=>"Updating ticket.", "created_at"=>"2024-07-16T14:03:20.781Z", "updated_at"=>"2024-07-16T14:03:20.781Z", "controller"=>"tickets", "action"=>"update", "ticket"=>{"id"=>"3", "name"=>"Test Name", "email"=>"test@email.com", "description"=>"This is a test ticket", "status"=>"in_progress", "comments"=>"Updating ticket.", "created_at"=>"2024-07-16T14:03:20.781Z", "updated_at"=>"2024-07-16T14:03:20.781Z"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:37:in `update'
+  [1m[36mTicket Update (0.6ms)[0m  [1m[33mUPDATE "tickets" SET "status" = $1, "comments" = $2, "updated_at" = $3 WHERE "tickets"."id" = $4[0m  [["status", "in_progress"], ["comments", "Updating ticket."], ["updated_at", "2024-07-16 14:04:26.241220"], ["id", 3]]
+  ↳ app/controllers/tickets_controller.rb:37:in `update'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:37:in `update'
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 2462)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:04:45 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"test", "email"=>"test@gmail.com", "description"=>"test", "status"=>"new", "ticket"=>{"name"=>"test", "email"=>"test@gmail.com", "description"=>"test", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.5ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test"], ["email", "test@gmail.com"], ["description", "test"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:04:45.513923"], ["updated_at", "2024-07-16 14:04:45.513923"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 5ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 1830)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:52 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 1098)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:52 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1098)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:53 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1098)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:04:53 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1098)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:05:02 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1099)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:05:02 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1098)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:05:18 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"test 2", "email"=>"test@gmail.com", "description"=>"test 2", "status"=>"new", "ticket"=>{"name"=>"test 2", "email"=>"test@gmail.com", "description"=>"test 2", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.4ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "test 2"], ["email", "test@gmail.com"], ["description", "test 2"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:05:18.120680"], ["updated_at", "2024-07-16 14:05:18.120680"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms | Allocations: 1825)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:22 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 5.9ms | Allocations: 4132)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:22 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1211)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:11:36 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"TTEESST", "email"=>"test@email.com", "description"=>"testetstetst", "status"=>"new", "ticket"=>{"name"=>"TTEESST", "email"=>"test@email.com", "description"=>"testetstetst", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.7ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "TTEESST"], ["email", "test@email.com"], ["description", "testetstetst"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:11:36.106387"], ["updated_at", "2024-07-16 14:11:36.106387"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 1827)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1324)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:46 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1324)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1324)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:11:47 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1324)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:12:01 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"1234", "email"=>"1234@email.com", "description"=>"12345", "status"=>"new", "ticket"=>{"name"=>"1234", "email"=>"1234@email.com", "description"=>"12345", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.4ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "1234"], ["email", "1234@email.com"], ["description", "12345"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:12:01.412041"], ["updated_at", "2024-07-16 14:12:01.412041"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 9ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 1825)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:13:42 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"again", "email"=>"again@email.com", "description"=>"test", "status"=>"new", "ticket"=>{"name"=>"again", "email"=>"again@email.com", "description"=>"test", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.3ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "again"], ["email", "again@email.com"], ["description", "test"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:13:42.216764"], ["updated_at", "2024-07-16 14:13:42.216764"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 5ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 1828)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:14:51 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:15:11 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:15:44 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:15:45 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:04 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:04 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:07 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:07 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:16:56 -0400
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:56 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 1878)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:16:56 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 938)
+
+
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 17ms (Views: 8.0ms | ActiveRecord: 8.3ms | Allocations: 7124)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:16:56 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.7ms | Allocations: 1550)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:17 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 664)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:18 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 635)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:24 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 635)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:28 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 635)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:31 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 635)
+
+
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:34 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 635)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:17:36 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:36 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+Processing by TicketsController#show as */*
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1803)
+
+
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 849)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:17:36 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:17:36 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1619)
+
+
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 635)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:30 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:18:30 -0400
+Processing by TicketsController#index as */*
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1655)
+
+
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 2140)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:30 -0400
+Started GET "/tickets/3" for 127.0.0.1 at 2024-07-16 10:18:30 -0400
+Processing by TicketsController#index as */*
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+  [1m[36mTicket Load (1.0ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 2009)
+
+
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 2288)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:35 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:35 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:37 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:37 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:55 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:18:55 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1550)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:19:09 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"hello", "email"=>"hello@gmail.com", "description"=>"hello", "status"=>"new", "ticket"=>{"name"=>"hello", "email"=>"hello@gmail.com", "description"=>"hello", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.3ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "hello"], ["email", "hello@gmail.com"], ["description", "hello"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:19:09.630590"], ["updated_at", "2024-07-16 14:19:09.630590"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 4ms (Views: 0.2ms | ActiveRecord: 1.0ms | Allocations: 1825)
+
+
+Started POST "/tickets" for 127.0.0.1 at 2024-07-16 10:19:25 -0400
+Processing by TicketsController#create as */*
+  Parameters: {"name"=>"onemore", "email"=>"onemore@gmail.com", "description"=>"onemore", "status"=>"new", "ticket"=>{"name"=>"onemore", "email"=>"onemore@gmail.com", "description"=>"onemore", "status"=>"new"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTicket Create (0.4ms)[0m  [1m[32mINSERT INTO "tickets" ("name", "email", "description", "status", "comments", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "onemore"], ["email", "onemore@gmail.com"], ["description", "onemore"], ["status", "new"], ["comments", nil], ["created_at", "2024-07-16 14:19:25.917957"], ["updated_at", "2024-07-16 14:19:25.917957"]]
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:28:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms | Allocations: 1825)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:19:32 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1776)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:19:32 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1776)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:23:50 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1776)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:23:50 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1776)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:23:54 -0400
+Started GET "/tickets/4" for 127.0.0.1 at 2024-07-16 10:23:54 -0400
+Processing by TicketsController#index as */*
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (3.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 3.7ms | Allocations: 3148)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2024-07-16 10:23:54 -0400
+Processing by TicketsController#index as */*
+  [1m[36mTicket Load (0.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/controllers/tickets_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 3059)
+
+
+  [1m[36mTicket Load (1.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 23.4ms | Allocations: 8355)
+
+
+Started GET "/tickets/4" for 127.0.0.1 at 2024-07-16 10:23:54 -0400
+Processing by TicketsController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (0.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:52:in `set_ticket'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 629)
+
+

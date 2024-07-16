@@ -68,75 +68,90 @@ function TicketDetails({ editTicket }) {
   };
 
   return (
-    <div>
-      <h2>Edit Ticket</h2>
-      <form onSubmit={handleTicketEdit}>
-        <div>
-          <label>
-            Name:
-            <input
-              type="text"
-              name="name"
-              value={ticket.name}
-              onChange={handleTicketChange}
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Email:
-            <input
-              type="email"
-              name="email"
-              value={ticket.email}
-              onChange={handleTicketChange}
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Status:
-            <select
-              name="status"
-              value={ticket.status}
-              onChange={handleTicketChange}
-              required
-            >
-              <option value="new">New</option>
-              <option value="in_progress">In Progress</option>
-              <option value="resolved">Resolved</option>
-            </select>
-          </label>
-        </div>
-        <div>
-          <label>
-            Description:
-            <textarea
-              name="description"
-              value={ticket.description}
-              onChange={handleTicketChange}
-              rows="4"
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Comments:
-            <textarea
-              name="comments"
-              value={ticket.comments || ""}
-              onChange={handleTicketChange}
-              rows="4"
-              required
-            />
-          </label>
-        </div>
-        <button type="submit">Update Ticket</button>
-      </form>
-      {errors && <div>{errors}</div>}
+    <div className="flex items-center justify-center h-screen">
+      <div className="p-4 border-2 border-white w-1/3">
+        <form
+          className="mt-4 p-4 bg-white rounded-lg shadow-md"
+          onSubmit={handleTicketEdit}
+        >
+          <h2 className="text-xl font-semibold mb-4">Update Ticket</h2>
+          <div className="mb-4">
+            <label htmlFor="name" className="block text-gray-700">
+              Name:
+              <input
+                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
+                type="text"
+                id="name"
+                value={ticket.name}
+                onChange={handleTicketChange}
+                required
+              />
+            </label>
+          </div>
+          <div className="mb-4">
+            <label htmlFor="email" className="block text-gray-700">
+              Email:
+              <input
+                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
+                type="email"
+                id="email"
+                value={ticket.email}
+                onChange={handleTicketChange}
+                required
+              />
+            </label>
+          </div>
+          <div className="mb-4">
+            <label htmlFor="status" className="block text-gray-700">
+              Status:
+              <select
+                id="status"
+                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
+                value={ticket.status}
+                onChange={handleTicketChange}
+                required
+              >
+                <option value="new">New</option>
+                <option value="in_progress">In Progress</option>
+                <option value="resolved">Resolved</option>
+              </select>
+            </label>
+          </div>
+          <div className="mb-4">
+            <label htmlFor="description" className="block text-gray-700">
+              Description:
+              <textarea
+                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
+                id="description"
+                value={ticket.description}
+                onChange={handleTicketChange}
+                rows="4"
+                required
+              />
+            </label>
+          </div>
+          <div className="mb-4">
+            <label htmlFor="comments" className="block text-gray-700">
+              Comments:
+              <textarea
+                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
+                id="comments"
+                value={ticket.comments || ""}
+                onChange={handleTicketChange}
+                rows="4"
+                required
+              />
+            </label>
+          </div>
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            type="submit"
+          >
+            Update Ticket
+          </button>
+        </form>
+        {errors.length > 0 && <div className="mb-4 text-red-600">{errors}</div>}
+      </div>
     </div>
   );
 }

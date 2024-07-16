@@ -54,7 +54,12 @@ function TicketAdminPanel({ tickets }) {
         const ticketId = params?.data?.id;
         return (
           <div>
-            <a href={`/tickets/${ticketId}`}>View Details</a>
+            <a
+              className="underline hover:text-gray-600"
+              href={`/tickets/${ticketId}`}
+            >
+              View Details
+            </a>
           </div>
         );
       },
@@ -62,12 +67,22 @@ function TicketAdminPanel({ tickets }) {
   ];
 
   return (
-    <div className="ag-theme-alpine" style={{ height: "400px", width: "95%" }}>
-      <AgGridReact
-        rowData={rowData}
-        columnDefs={columnDefs}
-        pagination={true}
-      />
+    <div className="flex items-center justify-center h-screen">
+      <div className="p-4 border-2 border-white w-11/12">
+        <h2 className="text-white px-3 pb-3 rounded-md text-sm font-medium">
+          Manage Your Help Desk Tickets
+        </h2>
+        <div
+          className="ag-theme-alpine"
+          style={{ height: "400px", width: "100%" }}
+        >
+          <AgGridReact
+            rowData={rowData}
+            columnDefs={columnDefs}
+            pagination={true}
+          />
+        </div>
+      </div>
     </div>
   );
 }
