@@ -81,7 +81,7 @@ function TicketDetails({ editTicket }) {
               <input
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
                 type="text"
-                id="name"
+                name="name"
                 value={ticket.name}
                 onChange={handleTicketChange}
                 required
@@ -94,7 +94,7 @@ function TicketDetails({ editTicket }) {
               <input
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
                 type="email"
-                id="email"
+                name="email"
                 value={ticket.email}
                 onChange={handleTicketChange}
                 required
@@ -105,7 +105,7 @@ function TicketDetails({ editTicket }) {
             <label htmlFor="status" className="block text-gray-700">
               Status:
               <select
-                id="status"
+                name="status"
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
                 value={ticket.status}
                 onChange={handleTicketChange}
@@ -122,7 +122,7 @@ function TicketDetails({ editTicket }) {
               Description:
               <textarea
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
-                id="description"
+                name="description"
                 value={ticket.description}
                 onChange={handleTicketChange}
                 rows="4"
@@ -135,7 +135,7 @@ function TicketDetails({ editTicket }) {
               Comments:
               <textarea
                 className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:border-2"
-                id="comments"
+                name="comments"
                 value={ticket.comments || ""}
                 onChange={handleTicketChange}
                 rows="4"
