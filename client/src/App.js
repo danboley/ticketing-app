@@ -6,6 +6,8 @@ import TicketAdminPanel from "./components/TicketAdminPanel";
 import TicketDetails from "./components/TicketDetails";
 import NavBar from "./components/NavBar";
 import { getAllTickets } from "./services/ticketService";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
@@ -21,6 +23,7 @@ function App() {
         setTickets(data);
       } catch (error) {
         console.error("Error fetching tickets:", error);
+        toast.error("Failed to load tickets. Please try again.");
         setError("Failed to load tickets. Please try again.");
       }
     };
@@ -58,6 +61,7 @@ function App() {
           element={<TicketDetails editTicket={editTicket} />}
         />
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

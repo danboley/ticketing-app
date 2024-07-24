@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getTicketById, updateTicket } from "../services/ticketService";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function TicketDetails({ editTicket }) {
   const [ticket, setTicket] = useState({
@@ -22,7 +24,7 @@ function TicketDetails({ editTicket }) {
         const data = await getTicketById(id);
         setTicket(data);
       } catch (error) {
-        console.error("Error fetching ticket:", error);
+        toast.error("Error fetching ticket:", error);
       }
     };
     getTicket();
@@ -43,15 +45,16 @@ function TicketDetails({ editTicket }) {
     try {
       const updatedTicket = await updateTicket(id, ticket);
       editTicket(updatedTicket);
-      console.log("Ticket updated successfully:", updatedTicket);
-      alert(
-        `Would normally send email here with body: Ticket updated... ${
+      console.log("Ticket updated successfully...", updatedTicket);
+      toast.success(
+        `Ticket updated successfully... ${
           (updatedTicket.name, updatedTicket.email, updatedTicket.comments)
         }`
       );
       navigate("/admin-panel");
     } catch (error) {
       console.error("Error updating ticket:", error);
+      toast.error("Failed to update ticket. Please try again.");
       setErrors("Failed to update ticket. Please try again.");
     }
   };

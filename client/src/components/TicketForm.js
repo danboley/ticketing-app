@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createTicket } from "../services/ticketService";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function TicketForm({ addTicket }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
   const [errors, setErrors] = useState([]);
-
   const navigate = useNavigate();
 
   // CREATE TICKET
@@ -23,15 +24,15 @@ function TicketForm({ addTicket }) {
       const data = await createTicket(ticketData);
       addTicket(data);
       console.log("Form submitted:", ticketData);
-      alert(
-        "Ticket successfully submitted: An expert will reach out to you shortly."
+      toast.success(
+        "Ticket successfully submitted. An expert will reach out to you shortly."
       );
       setName("");
       setEmail("");
       setDescription("");
       navigate("/");
     } catch (error) {
-      console.error("Error submitting ticket:", error);
+      toast.error("Error submitting ticket:", error);
       setErrors(["Failed to submit ticket. Please try again."]);
     }
   };
