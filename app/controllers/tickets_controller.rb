@@ -12,15 +12,6 @@ class TicketsController < ApplicationController
     render json: @ticket, status: :ok # 200 OK
   end
 
-  # GET /tickets/new
-  def new
-    @ticket = Ticket.new
-  end
-
-  # GET /tickets/1/edit
-  def edit
-  end
-
   # POST /tickets
   def create
     @ticket = Ticket.new(ticket_params)
@@ -39,12 +30,6 @@ class TicketsController < ApplicationController
     else
       render json: @ticket.errors, status: :unprocessable_entity # 422 Unprocessable Entity
     end
-  end
-
-  # DELETE /tickets/1
-  def destroy
-    @ticket.destroy
-    head :no_content # 204 No Content
   end
 
   private

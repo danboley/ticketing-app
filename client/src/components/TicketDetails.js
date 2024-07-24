@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { getTicketById, updateTicket } from "../services/ticketService";
 
 function TicketDetails({ editTicket }) {
   const [ticket, setTicket] = useState({
@@ -16,19 +17,15 @@ function TicketDetails({ editTicket }) {
 
   // GET TICKET BY ID
   useEffect(() => {
-    const fetchTicket = async () => {
+    const getTicket = async () => {
       try {
-        const response = await fetch(`/tickets/${id}`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch ticket");
-        }
-        const data = await response.json();
+        const data = await getTicketById(id);
         setTicket(data);
       } catch (error) {
         console.error("Error fetching ticket:", error);
       }
     };
-    fetchTicket();
+    getTicket();
   }, [id]);
 
   // Handle form input changes
@@ -44,19 +41,11 @@ function TicketDetails({ editTicket }) {
   const handleTicketEdit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`/tickets/${id}`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(ticket),
-      });
-      if (!response.ok) {
-        throw new Error("Failed to update ticket");
-      }
-      const updatedTicket = await response.json();
+      const updatedTicket = await updateTicket(id, ticket);
       editTicket(updatedTicket);
       console.log("Ticket updated successfully:", updatedTicket);
       alert(
-        `Would normally send email here with body: Ticket updated: ${
+        `Would normally send email here with body: Ticket updated... ${
           (updatedTicket.name, updatedTicket.email, updatedTicket.comments)
         }`
       );
@@ -67,15 +56,26 @@ function TicketDetails({ editTicket }) {
     }
   };
 
+  // Navigate back to the admin panel
+  const handleBackClick = () => {
+    navigate("/admin-panel");
+  };
+
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="p-4 border-2 border-white w-1/3">
+    <div className="flex items-center justify-center min-h-screen px-4 py-6">
+      <div className="p-4 border-2 border-white w-full max-w-md mx-auto rounded-lg">
+        <button
+          className="mb-4 bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600"
+          onClick={handleBackClick}
+        >
+          {`< `} Back to Admin Panel
+        </button>
         <form
-          className="mt-4 p-4 bg-white rounded-lg shadow-md"
+          className="space-y-4 p-4 bg-white rounded-lg shadow-md"
           onSubmit={handleTicketEdit}
         >
           <h2 className="text-xl font-semibold mb-4">Update Ticket</h2>
-          <div className="mb-4">
+          <div className="flex flex-col mb-4">
             <label htmlFor="name" className="block text-gray-700">
               Name:
               <input
@@ -85,10 +85,11 @@ function TicketDetails({ editTicket }) {
                 value={ticket.name}
                 onChange={handleTicketChange}
                 required
+                disabled
               />
             </label>
           </div>
-          <div className="mb-4">
+          <div className="flex flex-col mb-4">
             <label htmlFor="email" className="block text-gray-700">
               Email:
               <input
@@ -98,10 +99,11 @@ function TicketDetails({ editTicket }) {
                 value={ticket.email}
                 onChange={handleTicketChange}
                 required
+                disabled
               />
             </label>
           </div>
-          <div className="mb-4">
+          <div className="flex flex-col mb-4">
             <label htmlFor="status" className="block text-gray-700">
               Status:
               <select
@@ -117,7 +119,7 @@ function TicketDetails({ editTicket }) {
               </select>
             </label>
           </div>
-          <div className="mb-4">
+          <div className="flex flex-col mb-4">
             <label htmlFor="description" className="block text-gray-700">
               Description:
               <textarea
@@ -127,10 +129,11 @@ function TicketDetails({ editTicket }) {
                 onChange={handleTicketChange}
                 rows="4"
                 required
+                disabled
               />
             </label>
           </div>
-          <div className="mb-4">
+          <div className="flex flex-col mb-4">
             <label htmlFor="comments" className="block text-gray-700">
               Comments:
               <textarea
@@ -139,18 +142,17 @@ function TicketDetails({ editTicket }) {
                 value={ticket.comments || ""}
                 onChange={handleTicketChange}
                 rows="4"
-                required
               />
             </label>
           </div>
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
             type="submit"
           >
             Update Ticket
           </button>
         </form>
-        {errors.length > 0 && <div className="mb-4 text-red-600">{errors}</div>}
+        {errors.length > 0 && <div className="mt-4 text-red-600">{errors}</div>}
       </div>
     </div>
   );

@@ -1,72 +1,64 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { AgGridReact } from "ag-grid-react";
+import {
+  dateFormatter,
+  statusFormatter,
+  textTruncater,
+} from "../utils/formatters";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
 function TicketAdminPanel({ tickets }) {
   const [rowData, setRowData] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setRowData(tickets);
   }, [tickets]);
 
-  function dateFormatter(params) {
-    if (params.value) {
-      return new Date(params.value).toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "numeric",
-        second: "numeric",
-      });
-    } else {
-      return "";
-    }
-  }
-
-  function statusFormatter(params) {
-    if (params.value === "new") {
-      return "New";
-    } else if (params.value === "in_progress") {
-      return "In Progress";
-    } else if (params.value === "resolved") {
-      return "Resolved";
-    } else {
-      return params.value;
-    }
-  }
-
   const columnDefs = [
-    { headerName: "ID", field: "id" },
-    { headerName: "Name", field: "name" },
-    { headerName: "Status", field: "status", valueFormatter: statusFormatter },
-    { headerName: "Email", field: "email" },
-    { headerName: "Description", field: "description" },
-    { headerName: "Comments", field: "comments" },
-    { headerName: "Date", field: "created_at", valueFormatter: dateFormatter },
+    { headerName: "ID", field: "id", minWidth: 50, flex: 1 },
+    { headerName: "Name", field: "name", minWidth: 100, flex: 2 },
     {
-      headerName: "Actions",
-      field: "actions",
-      cellRenderer: (params) => {
-        const ticketId = params?.data?.id;
-        return (
-          <div>
-            <Link to={`/tickets/${ticketId}`}
-              className="underline hover:text-gray-600"
-            >
-              View Details
-            </Link>
-          </div>
-        );
-      },
+      headerName: "Status",
+      field: "status",
+      minWidth: 100,
+      flex: 1,
+      valueFormatter: statusFormatter,
+    },
+    { headerName: "Email", field: "email", minWidth: 150, flex: 2 },
+    {
+      headerName: "Description",
+      field: "description",
+      minWidth: 200,
+      flex: 3,
+      cellRenderer: textTruncater,
+    },
+    {
+      headerName: "Comments",
+      field: "comments",
+      minWidth: 200,
+      flex: 3,
+      cellRenderer: textTruncater,
+    },
+    {
+      headerName: "Date",
+      field: "created_at",
+      minWidth: 150,
+      flex: 2,
+      valueFormatter: dateFormatter,
     },
   ];
 
+  function handleRowClicked(e) {
+    const ticketId = e.data.id;
+    navigate(`/tickets/${ticketId}`);
+  }
+
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="p-4 border-2 border-white w-11/12">
+    <div className="flex items-center justify-center min-h-screen px-4">
+      <div className="p-4 border-2 border-white w-full max-w-6xl">
         <h2 className="text-white px-3 pb-3 rounded-md text-sm font-medium">
           Manage Your Help Desk Tickets
         </h2>
@@ -78,6 +70,7 @@ function TicketAdminPanel({ tickets }) {
             rowData={rowData}
             columnDefs={columnDefs}
             pagination={true}
+            onRowClicked={handleRowClicked}
           />
         </div>
       </div>

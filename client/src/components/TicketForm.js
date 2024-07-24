@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { createTicket } from "../services/ticketService";
 
 function TicketForm({ addTicket }) {
   const [name, setName] = useState("");
@@ -10,44 +11,36 @@ function TicketForm({ addTicket }) {
   const navigate = useNavigate();
 
   // CREATE TICKET
-  const handleTicketSubmit = (e) => {
-    e.preventDefault();
-    fetch(`/tickets`, {
-      method: `POST`,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
+  const handleTicketSubmit = async (e) => {
+    try {
+      const ticketData = {
         name: name,
         email: email,
         description: description,
         status: "new",
-      }),
-    })
-      .then((res) => {
-        if (res.ok) {
-          return res.json();
-        } else {
-          throw new Error("Failed to submit ticket");
-        }
-      })
-      .then((data) => {
-        addTicket(data);
-        console.log("Form submitted:", { name, email, description });
-        alert(
-          `Ticket successfully submitted: An expert will reach out to you shortly.`
-        );
-        navigate("/");
-      })
-      .catch((error) => {
-        console.error("Error submitting ticket:", error);
-        setErrors(["Failed to submit ticket. Please try again."]);
-      });
+      };
+
+      const data = await createTicket(ticketData);
+      addTicket(data);
+      console.log("Form submitted:", ticketData);
+      alert(
+        "Ticket successfully submitted: An expert will reach out to you shortly."
+      );
+      setName("");
+      setEmail("");
+      setDescription("");
+      navigate("/");
+    } catch (error) {
+      console.error("Error submitting ticket:", error);
+      setErrors(["Failed to submit ticket. Please try again."]);
+    }
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="p-4 border-2 border-white w-1/3">
+    <div className="flex items-center justify-center min-h-screen px-4 py-6">
+      <div className="p-4 border-2 border-white w-full max-w-md">
         <form
-          className="mt-4 p-4 bg-white rounded-lg shadow-md"
+          className="space-y-4 p-4 bg-white rounded-lg shadow-md"
           onSubmit={handleTicketSubmit}
         >
           <h2 className="text-xl font-semibold mb-4">Submit a Ticket</h2>
@@ -91,7 +84,7 @@ function TicketForm({ addTicket }) {
             </label>
           </div>
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
             type="submit"
           >
             Submit Ticket

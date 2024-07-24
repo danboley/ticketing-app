@@ -5,21 +5,26 @@ import TicketForm from "./components/TicketForm";
 import TicketAdminPanel from "./components/TicketAdminPanel";
 import TicketDetails from "./components/TicketDetails";
 import NavBar from "./components/NavBar";
+import { getAllTickets } from "./services/ticketService";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
 function App() {
   const [tickets, setTickets] = useState([]);
+  const [error, setError] = useState("");
 
   // GET ALL TICKETS
   useEffect(() => {
-    try {
-      fetch("/tickets")
-        .then((res) => res.json())
-        .then((data) => setTickets(data));
-    } catch (error) {
-      console.error("Error fetching tickets:", error);
-    }
+    const getTickets = async () => {
+      try {
+        const data = await getAllTickets();
+        setTickets(data);
+      } catch (error) {
+        console.error("Error fetching tickets:", error);
+        setError("Failed to load tickets. Please try again.");
+      }
+    };
+    getTickets();
   }, []);
 
   // Create Ticket Callback

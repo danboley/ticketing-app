@@ -11,7 +11,7 @@ function NavBar() {
           Help Desk
         </a>
       </div>
-      <div className="flex items-center">
+      <div className="flex flex-col md:flex-row md:items-center">
         <NavLink
           className="text-white px-3 py-2 rounded-md text-sm font-medium"
           to="/ticket-form"
